@@ -1,5 +1,9 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+/*=======================================INICIO NAVBAR =================================*/
 ul {
-    background-color: rgb(247, 124, 80);
+    background-color: #68B984;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,7 +20,14 @@ ul {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-  } /*falta barra para deslizar */
+  }
+
+.fotokati {
+    position: fixed;
+    margin-top: 1.5px;
+    margin-left: 1.5px;
+    border-radius: 50px;
+  }
 
 li {
     float: left;
@@ -31,12 +42,33 @@ li a {
 }
 
 li a:hover {
-    background-color: orange;
+    background-color: #3D5656;
   }
+
 
 li {
-    border-right: 1px solid #bbb;
+    border-right: 1px solid black;
   }
 
-  
-  
+li:last-child {
+  border-right: none;
+}
+
+#barra {
+  border-radius: 10px;
+}
+/*=======================================FIN NAVBAR =================================*/                                     
+
+/*======================================= INICIO SCROLLBAR ==========================*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3D5656; 
+  border-radius: 10px;
+}
+/*====================================== FIN SCROLLBAR ==============================*/
+.fondo{
+  border-radius: 10px;
+}
