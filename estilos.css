@@ -2,24 +2,16 @@
   font-family: 'Poppins', sans-serif;
 }
 /*=======================================INICIO NAVBAR =================================*/
-ul {
-    background-color: #68B984;
+
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
-
-ul {
+    background-color: #68B984;;
     position: fixed;
     top: 0;
     width: 100%;
-  }
-
-ul {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
   }
 
 .fotokati {
@@ -69,10 +61,11 @@ li:last-child {
   border-radius: 10px;
 }
 /*====================================== FIN SCROLLBAR ==============================*/
-
+/*====================================== INICIO FONDO ===============================*/
 #fondo{
   border-radius: 10px;
-  width: 181%;
+  width: 180%;
+  height: 420px;
 }
 
 .contenedor{
@@ -82,11 +75,12 @@ li:last-child {
 }
 .centrado{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-90%, -90%);
+  top: 73%;
+  left: 55%;
+  transform: translate(-100%, -60%);
   font-weight: 600;
-  font-size: 40px;
+  font-size: 45px;
   color:#3D5656;
-  font-family: 'Dancing Script', cursiva;
+  font-family: 'Roboto Mono', monospace;
 }
+/*======================================= FIN FONDO =================================*/
