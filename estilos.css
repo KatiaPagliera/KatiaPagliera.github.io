@@ -1,6 +1,7 @@
 *{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif; 
 }
+
 /*=======================================INICIO NAVBAR =================================*/
 
   ul {
@@ -11,7 +12,7 @@
     background-color: #68B984;;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 99%;
   }
 
 .fotokati {
@@ -53,33 +54,38 @@ li:last-child {
 
 /*======================================= INICIO SCROLLBAR ==========================*/
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #3D5656; 
-  border-radius: 10px;
+  border-radius: 7px;
 }
 /*====================================== FIN SCROLLBAR ==============================*/
 /*====================================== INICIO FONDO ===============================*/
 #fondo{
-  border-radius: 10px;
-  width: 180%;
-  height: 420px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /*
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  width: 150px;
+  height: 412px;
 }
 
 .contenedor{
-  position: relative;
+  position: top;
   display: inline-block;
   text-align: center;
 }
 .centrado{
   position: absolute;
-  top: 73%;
-  left: 55%;
+  top: 55%;
+  left: 35%;
   transform: translate(-100%, -60%);
   font-weight: 600;
-  font-size: 45px;
+  font-size: 41px;
   color:#3D5656;
   font-family: 'Roboto Mono', monospace;
 }
