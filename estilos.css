@@ -1,10 +1,13 @@
 *{
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Poppins', sans-serif;
+  color: black; 
 }
 
 /*=======================================INICIO NAVBAR =================================*/
 
   ul {
+    position: absolute;
+    z-index: 9999;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,11 +25,11 @@
     border-radius: 50px;
   }
 
-li {
+  .barra li {
     float: left;
   }
 
-li a {
+  .barra li a {
     display: block;
     color: white;
     text-align: center;
@@ -34,20 +37,20 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.barra li a:hover {
     background-color: #3D5656;
   }
 
 
-li {
+  .barra li {
     border-right: 1px solid black;
   }
 
-li:last-child {
+  .barra li:last-child {
   border-right: none;
 }
 
-#barra {
+.barra {
   border-radius: 10px;
 }
 /*=======================================FIN NAVBAR =================================*/                                     
@@ -64,14 +67,16 @@ li:last-child {
 /*====================================== FIN SCROLLBAR ==============================*/
 /*====================================== INICIO FONDO ===============================*/
 #fondo{
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  /*
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
-  width: 150px;
-  height: 412px;
+ background: transparent;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: block;
+ max-width: 100%;
+ max-height: 700%;
+ height: auto !important;
+ width: auto !important;
 }
 
 .contenedor{
@@ -90,3 +95,59 @@ li:last-child {
   font-family: 'Roboto Mono', monospace;
 }
 /*======================================= FIN FONDO =================================*/
+
+/*=======================================INICIO CONTENIDO============================*/
+section[id]{
+  scroll-margin-top: 50px;
+}
+html{
+  scroll-behavior: smooth;
+}
+h1{
+  color: #10A19D;
+}
+
+h2{
+  color:#68B984;
+}
+
+p{
+  line-height: 1.5;
+  text-align: justify;
+}
+b{
+font-weight: bolder;
+}
+
+h1,h2,p {
+  margin: 25px 25px 15px 15px;
+}
+
+.cuerpo {
+  margin-left: 25px;
+}
+
+#campo{
+  margin:70px;
+  border-radius: 10px;
+  position: center;
+}
+
+#codigo{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  position: center;
+}
+
+#biotecnologia{
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  position: center;
+}
+
+ /*====================================FIN CONTENIDO===============================*/
