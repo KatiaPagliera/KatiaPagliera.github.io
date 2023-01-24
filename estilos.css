@@ -150,4 +150,22 @@ h1,h2,p {
   position: center;
 }
 
+/*==================================CALIFICACION DE LA PAGINA================================*/
+input[type = "radio"]{ display:none;}/*Escondo los botones */
+
+.clasificacion{
+  text-align: center;
+  font-size: 20px;
+  float: center;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover, label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
  /*====================================FIN CONTENIDO===============================*/
