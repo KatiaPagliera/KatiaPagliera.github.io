@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Katia Pagliera </title>
     
-    <link rel="icon" type="image/x-icon" href="\imagen-favicon\k-icon.ico">
+    <link rel="icon" type="image/x-icon" href="\imagenes\k-icon.ico">
     
     <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@500&display=swap" rel="stylesheet">
     
@@ -25,11 +25,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
                          
     <link rel="stylesheet" href="estilos.css">
+
+    <script src="comportamiento.js"></script>
 </head>
 <body style="background-color: #E3F6FF;">
    
     <ul class="barra">
-        <img class="fotokati" src="imagen-favicon\foto-kati.jpg" alt="" height="43px" width="43px">
+        <img class="fotokati" src="imagenes\foto-kati.jpg" alt="" height="43px" width="43px">
         <li><a href="#Sobre mí" style="margin-left: 47px;">Sobre mí</a></li>
         <li><a href="#Habilidades">Habilidades</a></li>
         <li><a href="#Proyectos a futuro">Proyectos a futuro</a></li>
@@ -39,7 +41,7 @@
 
     
     <div class="contenedor">
-        <img id="fondo" src="imagen-favicon\fondo.jpg"/>
+        <img id="fondo" src="imagenes\fondo.jpg"/>
         <div class="centrado">Katia Pagliera</div>
       </div>
 
@@ -51,8 +53,8 @@
       con orientación en agroalimentos. También, me encuentro 
       desarrollando el curso Argentina programa 4.0,
       orientado al desarrollo front- end.</p>
-      <img id="campo" src="imagen-favicon\campo.jpg" alt="">
-      <img id="codigo" src="imagen-favicon\Codigo-fuente.jpg" alt="">
+      <img id="campo" src="imagenes\campo.jpg" alt="">
+      <img id="codigo" src="imagenes\Codigo-fuente.jpg" alt="">
   
      <section id="Habilidades">
         <h1>Habilidades</h1>
@@ -95,7 +97,7 @@
         <h1>Proyectos a futuro</h1>
       </section>
      <li class="cuerpo">Convertirme en Licenciada en Biotecnología.</li> 
-     <img id="biotecnologia" src="imagen-favicon\biotecnologia.jpg" width="500px" alt="">
+     <img id="biotecnologia" src="imagenes\biotecnologia.jpg" width="500px" alt="">
      <li class="cuerpo">Capacitarme aun más en el ámbito del desarrollo front-end y desarrollo de aplicaciones móviles.</li>
      <li class="cuerpo">Seguir adquiriendo conociento de estas ramas y crear cosas interesantes.</li> 
   
@@ -103,22 +105,30 @@
         <h1>Contacto</h1>
     </section> 
      <a href="https://github.com/KatiaPagliera" style="margin-left: 20px;">
-        <img style="border-radius: 10px;" src="imagen-favicon\github.png" width="50px" height="50px" alt="">
+        <img style="border-radius: 10px;" src="imagenes\github.png" width="50px" height="50px" alt="">
      </a>
      <a href="mailto:katiapagliera@gmail.com" style="margin-left: 20px;">
-        <img style="border-radius: 10px;"  src="imagen-favicon\gmail.png" width="50px" height="50px" alt="">
+        <img style="border-radius: 10px;"  src="imagenes\gmail.png" width="50px" height="50px" alt="">
      </a>
 
+    <div id="gracias">
+      <img src="imagenes\gracias.png" alt="">
+    </div>
+
+    <div id="perdon">
+      <img src="imagenes\perdon.png" alt="">
+    </div>
+
     <p class="clasificacion" >
-      <input id="radio1" type="radio" name="estrellas" value="5"><!--
+      <input id="radio1" type="radio" name="estrellas" value="5" onclick="calificacion()"><!--
       --><label for="radio1">★</label><!--
-      --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+      --><input id="radio2" type="radio" name="estrellas" value="4" onclick="calificacion()"><!--
       --><label for="radio2">★</label><!--
-      --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+      --><input id="radio3" type="radio" name="estrellas" value="3" onclick="calificacion()"><!--
       --><label for="radio3">★</label><!--
-      --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+      --><input id="radio4" type="radio" name="estrellas" value="2" onclick="calificacion()"><!--
       --><label for="radio4">★</label><!--
-      --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+      --><input id="radio5" type="radio" name="estrellas" value="1"  onclick="calificacion()"><!--
       --><label for="radio5">★</label>
     </body>
 </html>

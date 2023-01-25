@@ -168,4 +168,15 @@ label:hover, label:hover ~ label {
 input[type="radio"]:checked ~ label {
   color: orange;
 }
+
+#gracias{
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#perdon{
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
  /*====================================FIN CONTENIDO===============================*/
