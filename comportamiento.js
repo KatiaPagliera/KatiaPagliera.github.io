@@ -24,17 +24,19 @@ function detectarElementoPresionado() {
 }
 
 function limpiarPantalla() {
+    //Funcion para oculatr imagenes
     document.getElementById("perdon").style.display = "none";
     document.getElementById("gracias").style.display = "none";
 }
 
 
 function calificacion() {
+    //Funcion que se encarga de el comportamiento de la calificacion
     var elemento = detectarElementoPresionado();
     limpiarPantalla();
     
     if (elemento < 3){
-        //Si lo votado es menor a 3 muestro "lo siento"
+        //Si lo votado es menor a 3 muestro "perdon"
         document.getElementById("perdon").style.display = "flex";
 
     }else if (elemento >= 3 && elemento <= 5){

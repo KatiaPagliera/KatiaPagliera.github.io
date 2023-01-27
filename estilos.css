@@ -4,49 +4,47 @@
 }
 
 /*=======================================INICIO NAVBAR =================================*/
-
-  ul {
-    position: absolute;
-    z-index: 9999;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #68B984;;
-    position: fixed;
-    top: 0;
-    width: 99%;
-  }
+ul {
+  position: absolute;
+  z-index: 9999;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #68B984;;
+  position: fixed;
+  top: 0;
+  width: 99%;
+}
 
 .fotokati {
-    position: fixed;
-    margin-top: 1.5px;
-    margin-left: 1.5px;
-    border-radius: 50px;
-  }
+  position: fixed;
+  margin-top: 1.5px;
+  margin-left: 1.5px;
+  border-radius: 50px;
+}
 
-  .barra li {
-    float: left;
-  }
+.barra li {
+  float: left;
+}
 
-  .barra li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.barra li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .barra li a:hover {
-    background-color: #3D5656;
-  }
+  background-color: #3D5656;
+}
 
+.barra li {
+  border-right: 1px solid black;
+}
 
-  .barra li {
-    border-right: 1px solid black;
-  }
-
-  .barra li:last-child {
+.barra li:last-child {
   border-right: none;
 }
 
@@ -65,18 +63,19 @@
   border-radius: 7px;
 }
 /*====================================== FIN SCROLLBAR ==============================*/
+
 /*====================================== INICIO FONDO ===============================*/
 #fondo{
- background: transparent;
- border-bottom-left-radius: 10px;
- border-bottom-right-radius: 10px;
- display: -webkit-box;
- display: -ms-flexbox;
- display: block;
- max-width: 100%;
- max-height: 700%;
- height: auto !important;
- width: auto !important;
+  background: transparent;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: block;
+  max-width: 100%;
+  max-height: 700%;
+  height: auto !important;
+  width: auto !important;
 }
 
 .contenedor{
@@ -84,6 +83,7 @@
   display: inline-block;
   text-align: center;
 }
+
 .centrado{
   position: absolute;
   top: 55%;
@@ -100,9 +100,11 @@
 section[id]{
   scroll-margin-top: 50px;
 }
+
 html{
   scroll-behavior: smooth;
 }
+
 h1{
   color: #10A19D;
 }
@@ -115,6 +117,7 @@ p{
   line-height: 1.5;
   text-align: justify;
 }
+
 b{
 font-weight: bolder;
 }
@@ -174,6 +177,7 @@ input[type="radio"]:checked ~ label {
   justify-content: center;
   align-items: center;
 }
+
 #perdon{
   display: none;
   justify-content: center;
