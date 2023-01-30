@@ -13,6 +13,7 @@ La página consta de cuatro secciones todas accesibles desde la NavBar:
 
 Por último, cabe destacar que en el pie de la página se encontraran cinco estrellas las cuales permiten votar a la página, que depende la votación efectuada mostrará una imagen de "gracias" u otra de "perdón".
 
+**Link a la página: https://katiapagliera.github.io**
 
 
 
